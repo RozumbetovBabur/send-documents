@@ -1,0 +1,10 @@
+pip install django
+pip freeze > requirements.txt
+basqa kompyuterge install qiliw ushin
+pip install -r requirements.txt
+django-admin startproject config .
+Joqaridag'i proekt jaratiw esaplanadi
+python manage.py runserver
+python manage.py runserver 0.0.0.0:8080
+python manage.py startapp app_1
+app_1 (proekt)
