@@ -57,7 +57,7 @@ def message_handler(update,context):
                 send_file_path = latest_file
 
                 # Faylni Telegram guruhiga yuborish
-                group_chat_id = -1002056081927  # Replace with your actual group chat ID
+                group_chat_id = XXXXXXXXXXXXXXXX  # Replace with your actual group chat ID
                 send_file_to_group(context.bot, group_chat_id, send_file_path,
                                    caption=f"Ati: {db_user['first_name']}\nFamiliyasi: {db_user['last_name']}\nTelefon nomeri: {db_user['phone_number']}")
         elif message == globals.WRITE[db_user['lang_id']]:

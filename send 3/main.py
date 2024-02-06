@@ -5,7 +5,7 @@ db = Database("db-evos.db")
 from register import *
 from messages import *
 
-token = "6344518209:AAEyDNM9S3oOj12v108ck3WsWVCVkpbQSLU"
+token = XXXXXXXXXXXXXX
 
 def start_handler(update,context):
     check(update,context)
